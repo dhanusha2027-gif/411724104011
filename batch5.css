@@ -76,7 +76,14 @@ nav{
 
 .grid{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+  
+    
+}
+@media(min-width: 1024px){
+    .grid{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
 }
 
 /* #one{
